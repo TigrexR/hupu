@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.tigrex</groupId>
-		<artifactId>game</artifactId>
+		<artifactId>news</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>game-sdk</artifactId>
+	<artifactId>news-sdk</artifactId>
 	<version>1.0.0</version>
-	<name>game-sdk</name>
-	<description>game sdk</description>
+	<name>news-sdk</name>
+	<description>news sdk</description>
 	<packaging>jar</packaging>
 
 	<dependencies>

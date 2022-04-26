@@ -10,13 +10,13 @@
 	<description>Hupu Basketball</description>
 
 	<modules>
+		<module>core</module>
+		<module>../gateway</module>
 		<module>../league</module>
 		<module>../team</module>
-<!--		<module>../player</module>-->
-<!--		<module>../user</module>-->
-<!--		<module>../game</module>-->
-<!--		<module>../news</module>-->
-		<module>core</module>
+		<module>../player</module>
+		<module>../game</module>
+		<module>../news</module>
 	</modules>
 
 	<properties>

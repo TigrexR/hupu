@@ -4,27 +4,26 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.tigrex</groupId>
-		<artifactId>game</artifactId>
+		<artifactId>news</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>game-service</artifactId>
+	<artifactId>news-service</artifactId>
 	<version>1.0.0</version>
-	<name>game-service</name>
-	<description>game service</description>
+	<name>news-service</name>
+	<description>news service</description>
 	<packaging>jar</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.tigrex</groupId>
-			<artifactId>core</artifactId>
+			<artifactId>news-sdk</artifactId>
 			<version>1.0.0</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>com.tigrex</groupId>
-			<artifactId>game-sdk</artifactId>
+			<artifactId>core</artifactId>
 			<version>1.0.0</version>
-			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
